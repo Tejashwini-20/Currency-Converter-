@@ -1,0 +1,46 @@
+body{
+    margin:0;
+
+}
+#face{
+    height:400px;
+    width:400px;
+    background-color: yellow;
+    border-radius:50%;
+    border:10px inset black;
+    animation:rotating 2s steps(4) 0.3s infinite;
+}
+@keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform :rotate(360deg);
+    }
+}
+.eyes{
+    height:50px;
+    width:50px;
+    background-color: black;
+    border-radius:50%;
+}
+#a{
+    position:absolute;
+    left:100px;
+    top:100px;
+}
+#b{
+    position:absolute;
+    left:250px;
+    top:100px;
+}
+#lips{
+    height:80px;
+    width:200px;
+    background-color:firebrick;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    position:absolute;
+    left:100px;
+    top:250px;
+}
