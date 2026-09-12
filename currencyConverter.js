@@ -1,4 +1,4 @@
-const BASE_URL = "https://api.frankfurter.app/latest?amount=100&from=USD&to=INR";
+const BASE_URL = ".";
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn= document.querySelector("form button");
 const fromCurr =  document.querySelector(".from select");
